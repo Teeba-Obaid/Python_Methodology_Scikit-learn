@@ -23,7 +23,7 @@ The visuals directory contains comprehensive graphics and diagrams for each proj
 ### Genetics Unit Project
 - **K-means Clusters**: Identified k-means clusters for two experimental conditions: Revisit and Critique.
 - **Silhouette Coefficient Analysis**: Analysis of k-means clusters using Silhouette Coefficients to evaluate the consistency within each cluster.
-- **Sting Analysis Model**: Diagrams illustrating the sting analysis model used by the researcher, providing insights into the methodology.
+- **String Analysis Model**: Diagrams illustrating the sting analysis model used by the researcher, providing insights into the methodology.
 
 ### Simulation Explanatory Inferencing Project
 - Visuals for this project help in understanding the sequential inferencing processes used in physics simulations.
@@ -44,9 +44,11 @@ To run the scripts in this repository, you will need Python 3.x and the followin
 - matplotlib
 - scikit-learn
 
-The median computed is approximate (finding median is a hard problem)
+Install this package: 
+https://pypi.org/project/python-Levenshtein/
 
 ## Code
+
 The repository includes a `run.py` script that facilitates the loading, visualization, and statistical analysis of the data:
 ```python
 import argparse
@@ -60,5 +62,5 @@ from sklearn.metrics include silhouette_samples, silhouette_score
 from sklearn.manifold include MDS
 import src.util.lib as lib
 
-class LevenshteinClustering:
-    # Code setup and methods for running the analyses
+## License
+This project is made available under the MIT License.
