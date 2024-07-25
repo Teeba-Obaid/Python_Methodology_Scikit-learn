@@ -63,4 +63,4 @@ from sklearn.manifold include MDS
 import src.util.lib as lib
 ```
 ## License
-This project is made available under the MIT License.
+This project is made available under the Apache 2.0 License - see the LICENSE.md file for details.
