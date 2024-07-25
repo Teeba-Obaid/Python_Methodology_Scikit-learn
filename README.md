@@ -16,23 +16,6 @@ This repository contains data, code, and visuals for several research projects f
 - **Data**: This project explores a physics simulation combined with a rule formation tool. It includes `data8` and `data10` files. `data8` covers participants' engineering approaches, and `data10` details participants' search strategies. The repository includes a `codelable` file for sequential analysis using Levenshtein edit distance.
 - **Visuals**: Features multidimensional scaling (MDS), k-means clusters, Silhouette Coefficient analysis for k-means, and k-means spider radar visuals for three experimental conditions: Control, Decision Table and Inductive Rules, and Inductive Rules alone. Also includes schematics of the coding schema and hierarchical structures of participants' engineering approaches.
 
-## Code
-The repository includes a `run.py` script that facilitates the loading, visualization, and statistical analysis of the data:
-```python
-import argparse
-import os
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import plotly.express as px
-from sklearn.cluster include KMeans
-from sklearn.metrics include silhouette_samples, silhouette_score
-from sklearn.manifold include MDS
-import src.util.lib as lib
-
-class LevenshteinClustering:
-    # Code setup and methods for running the analyses
-
 ## Visuals
 
 The visuals directory contains comprehensive graphics and diagrams for each project, aiding in the interpretation and analysis of the data:
@@ -61,16 +44,21 @@ To run the scripts in this repository, you will need Python 3.x and the followin
 - matplotlib
 - scikit-learn
 
-You can install all required libraries using the following command:
-
-```bash
-pip install pandas numpy scipy matplotlib scikit-learn
-
-You need to install this package:
-https://pypi.org/project/python-Levenshtein/
-
 The median computed is approximate (finding median is a hard problem)
 
-## License
-This project is made available under the MIT License.
+## Code
+The repository includes a `run.py` script that facilitates the loading, visualization, and statistical analysis of the data:
+```python
+import argparse
+import os
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+from sklearn.cluster include KMeans
+from sklearn.metrics include silhouette_samples, silhouette_score
+from sklearn.manifold include MDS
+import src.util.lib as lib
 
+class LevenshteinClustering:
+    # Code setup and methods for running the analyses
